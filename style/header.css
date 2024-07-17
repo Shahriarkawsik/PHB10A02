@@ -1,0 +1,151 @@
+.header {
+  /* background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  ); */
+  background-color: #000;
+  width: 100%;
+}
+.navBar {
+  padding: 6.24rem 20.267rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10.24rem;
+}
+.navbar-logo {
+  color: var(--btn-color);
+  font-size: 3.84rem;
+  font-weight: 800;
+  font-style: italic;
+}
+.navBar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5.013rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.navBar ul li {
+  margin: 1.253rem;
+  list-style: none;
+  /* padding: 0.853rem 2.134rem; */
+}
+.navBar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.92rem;
+  font-weight: 400;
+  padding: 0.853rem 2.134rem;
+}
+#home {
+  background-color: rgb(230, 83, 60);
+  border-radius: 4.6rem;
+}
+/* ===============================
+          Banner Section
+   =============================== */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 14.93rem 10.67rem 20.267rem;
+  gap: 5.76rem;
+  color: white;
+}
+.banner-description {
+  color: white;
+  margin-bottom: 8.11rem;
+}
+.banner-description-title {
+  font-size: 8.32rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+#bdts {
+  font-family: "miama";
+  font-weight: 400;
+}
+
+.banner-description-subtitle {
+  margin: 2.987rem 0;
+  font-size: 1.7067rem;
+  font-weight: 400;
+  line-height: 2.56rem;
+  letter-spacing: 0.5px;
+}
+.banner-description-btn2 {
+  border: 1px solid white;
+  background-color: #000;
+  margin-left: 1.49rem;
+}
+/* image container */
+.banner-img-container {
+  min-width: 40%;
+  position: relative;
+  bottom: -135px;
+}6
+.banner-img-container img {
+  position: absolute;
+  bottom: -150px;
+}
+.blur66-item-tutorial {
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.71rem 2.56rem;
+  width: 20.59rem;
+  /* height: 10.45rem; */
+  position: absolute;
+  right: 40px;
+  top: -310px;
+}
+.blur-item-tutorial h3 {
+  font-size: 4.267rem;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 1px;
+}
+.blur-item-tutorial p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.blur-item-workout {
+  align-items: center;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  gap: 1.28rem;
+  justify-content: center;
+  padding: 2.13rem 2.453rem;
+  width: 21.973rem;
+  position: absolute;
+  left: -75px;
+}
+.blur-item-workout h3 {
+  font-size: 2.56rem;
+  font-weight: 900;
+  line-height: 2.56rem;
+  letter-spacing: 0.3px;
+}
+.blur-item-workout p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(239, 237, 232, 0.65);
+}
+.empty-div {
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--btn-color);
+  border-radius: 50%;
+}
