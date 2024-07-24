@@ -1,0 +1,35 @@
+.change-habit {
+  width: 72.5%;
+  text-align: center;
+}
+.change-habit-subtitle {
+  margin: 1.49rem 0 5.76rem;
+}
+.habit-cards {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+.habit-card {
+  text-align: center;
+}
+.habit-card img {
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.1);
+}
+.habit-card-title {
+  font-size: 1.92rem;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 2.67rem 0 0.64rem;
+}
+.habit-card-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.493rem;
+  font-weight: 400;
+  line-height: 128.57%;
+  letter-spacing: 0.3px;
+}
+/* border: 2px solid red; */

@@ -1,0 +1,55 @@
+.team-section {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.team-section-subtitle {
+  margin: 1.493rem 0 6.187rem;
+}
+.team-members {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+}
+.team-member {
+  height: 27.2rem;
+  border-radius: 18px;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.team-member-details {
+  text-align: left;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.team-member-name {
+  color: rgb(255, 255, 255);
+  font-size: 2.22rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+.team-member-1 {
+  background-image: url(../images/trainer1.png);
+}
+.team-member-2 {
+  background-image: url(../images/trainer2.png);
+}
+.team-member-3 {
+  background-image: url(../images/trainer3.png);
+}
+.team-member-4 {
+  background-image: url(../images/trainer4.png);
+}
+.team-member-5 {
+  background-image: url(../images/trainer5.png);
+}
+.team-member-6 {
+  background-image: url(../images/trainer6.png);
+}

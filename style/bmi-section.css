@@ -1,0 +1,57 @@
+.BMI-calculator {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+  padding: 10.67rem 21.12rem;
+}
+.BMI-chart-title,
+.calculate-BMI-title {
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
+}
+thead tr td {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+thead tr td,
+tbody tr td {
+  font-size: 1.8rem;
+  padding: 1.5rem;
+  width: 150px;
+}
+table,
+thead tr td,
+tbody tr td {
+  border-collapse: collapse;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+/* calculate BMI */
+.input-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+input::placeholder,
+select {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 500;
+}
+input,
+select {
+  padding: 1.5rem 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+option {
+  background: gray;
+}
+#activity {
+  grid-area: 3 / span 2;
+}

@@ -1,0 +1,25 @@
+.run-section {
+  width: 73.61%;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.2rem 3.4rem 3.2rem 3.76rem;
+  gap: 17.6rem;
+}
+.run-section-description {
+  width: 41.79%;
+}
+.run-section-subtitle {
+  margin: 1.49rem 0 3.627rem;
+}
+.run-section-img {
+  width: 34.528%;
+  /* border: 2px solid red; */
+}
+.run-section-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.8rem;
+}
