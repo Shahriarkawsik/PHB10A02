@@ -41,7 +41,7 @@
   line-height: 120%;
 }
 .footer-right-tag {
-  margin-top: 3.84rem;
+  padding: 1.92rem 0;
   color: rgba(255, 255, 255, 0.5);
   font-size: 2.13rem;
   font-weight: 400;
@@ -51,17 +51,17 @@
 }
 @media screen and (max-width: 576px) {
   .footer {
-    width: 100%;
-    padding: 1rem;
-    /* margin: 1rem; */
+    padding: 0 2rem;
   }
   .footer-container {
     flex-direction: column;
-    align-items: start;
     gap: 2rem;
   }
   .footer-column {
     width: 100%;
+  }
+  .fcolumn-1-title {
+    font-size: 7rem;
   }
   .fcolumn-1-subtitle {
     margin-top: 2.13rem;

@@ -80,15 +80,17 @@ option {
   margin-top: 3.63rem;
 }
 @media screen and (max-width: 576px) {
-  .BMI-calculator {
-    flex-direction: column;
-    padding: 0;
-    margin: 0 1rem;
-    gap: 4rem;
-  }
   .BMI,
   .calculate-BMI {
     width: calc(100% - 1rem);
+    padding: 2rem;
+  }
+  .BMI-calculator {
+    width: calc(100% - 2rem);
+    padding: 2rem;
+    flex-direction: column;
+    padding: 0;
+    gap: 4rem;
   }
   .BMI-chart,
   .calculate-BMI {
@@ -101,13 +103,17 @@ option {
   .BMI-chart-title {
     margin: 3.63rem 0 2.45rem;
   }
+  .calculate-BMI-subtitle {
+    text-align: justify;
+  }
   thead tr td,
   tbody tr td {
     width: calc(100% - 2rem) / 2;
     padding: 1.39rem;
   }
-  .input-container {
-    width: calc(100% - 1.2rem);
+  input,
+  select {
+    width: 100%;
   }
   .calculate-BMI-btn {
     margin: 3rem 0;

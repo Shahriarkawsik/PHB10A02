@@ -35,14 +35,14 @@
 @media screen and (max-width: 576px) {
   .change-habit {
     width: calc(100% - 2rem);
-    margin: 1rem;
-  }
-  .change-habit-title {
-    font-size: 2.5rem;
+    padding: 2rem;
   }
   .habit-cards {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+  .change-habit-subtitle {
+    text-align: justify;
   }
   .habit-card-title {
     font-size: 2.5rem;
