@@ -23,3 +23,26 @@
   height: 100%;
   border-radius: 1.8rem;
 }
+@media screen and (max-width: 576px) {
+  .run-section {
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    padding: 1.2rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .run-section-description,
+  .run-section-img {
+    width: calc(100% - 6.6rem);
+  }
+  .run-section-title {
+    font-size: 2.5rem;
+  }
+  .run-section-subtitle {
+    text-align: justify;
+  }
+  .run-section-btn {
+    padding: 1.6rem 9.5rem;
+    font-size: 1.95rem;
+  }
+}
