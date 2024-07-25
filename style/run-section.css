@@ -26,8 +26,8 @@
 @media screen and (max-width: 576px) {
   .run-section {
     width: calc(100% - 2rem);
-    margin: 1rem;
-    padding: 1.2rem;
+    /* margin: 1rem; */
+    padding: 1rem;
     flex-direction: column;
     gap: 2rem;
   }
@@ -42,7 +42,7 @@
     text-align: justify;
   }
   .run-section-btn {
-    padding: 1.6rem 9.5rem;
-    font-size: 1.95rem;
+    padding: 1.6rem 8.9rem;
+    font-size: 1.99rem;
   }
 }

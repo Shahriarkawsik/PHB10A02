@@ -55,7 +55,7 @@
 @media screen and (max-width: 576px) {
   .team-section {
     width: calc(100% - 2rem);
-    margin: 1rem;
+    padding: 1rem;
   }
   .team-members {
     grid-template-columns: 1fr;
