@@ -52,3 +52,8 @@ section .title {
   line-height: 2.56rem;
   letter-spacing: 0.3px;
 }
+
+/* 
+@media screen and (min-width: 576px) and (max-width: 992px) {}
+  @media screen and (max-width: 576px) {
+  }*/

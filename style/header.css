@@ -1,18 +1,20 @@
+.displayNone {
+  display: none;
+}
 .header {
   background: linear-gradient(
     180deg,
     rgb(17, 17, 17),
     rgba(32, 32, 32, 0.9) 100%
   );
-  /* background-color: #000; */
   width: 100%;
 }
 .navBar {
-  padding: 6.24rem 20.267rem 0;
+  padding: 6.08rem 20.267rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10.24rem;
+  margin-bottom: 3.41rem;
 }
 .navbar-logo {
   color: var(--btn-color);
@@ -56,9 +58,10 @@
   gap: 5.76rem;
   color: white;
 }
+/*  */
 .banner-description {
   color: white;
-  /* margin-bottom: 8.11rem; */
+  margin-right: 17.81rem;
 }
 .banner-description-title {
   font-size: 8.32rem;
@@ -85,15 +88,23 @@
 /* image container */
 .banner-img-container {
   width: 40%;
+  position: relative;
+}
+
+.banner-img-container img {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
 }
 .blur-item-tutorial {
-  backdrop-filter: blur(20px);
+  position: absolute;
+  top: 22%;
+  right: -19%;
+  backdrop-filter: blur(2rem);
   background: rgba(48, 48, 48, 0.54);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1.71rem 2.56rem;
-  width: 20.59rem;
-  height: 10.45rem;
 }
 .blur-item-tutorial h3 {
   font-size: 4.267rem;
@@ -109,7 +120,9 @@
   color: rgba(255, 255, 255, 0.65);
 }
 .blur-item-workout {
-  align-items: center;
+  position: absolute;
+  bottom: 13.5%;
+  left: -28%;
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
   border-radius: 12px;
@@ -117,8 +130,8 @@
   display: flex;
   gap: 1.28rem;
   justify-content: center;
+  align-items: center;
   padding: 2.13rem 2.453rem;
-  width: 21.973rem;
 }
 .blur-item-workout h3 {
   font-size: 2.56rem;
@@ -138,4 +151,59 @@
   height: 4rem;
   background-color: var(--btn-color);
   border-radius: 50%;
+}
+/* Responsive section */
+/* @media screen and (min-width: 576px) and (max-width: 992px) {
+
+} */
+@media screen and (max-width: 576px) {
+  .navBar {
+    padding: 5.2rem 2rem 5.1rem;
+  }
+  .navBar ul {
+    display: none;
+  }
+  .banner {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+  .banner-description {
+    margin-right: 1rem;
+  }
+  .banner-description-title {
+    font-size: 3.6rem;
+    font-weight: 900;
+    margin-bottom: 2.8rem;
+  }
+  .banner-btn-container button {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    padding: 1.6rem 2.9rem;
+  }
+  .banner-img-container {
+    width: 100%;
+  }
+  .banner-img-container img {
+    width: 100%;
+  }
+  .blur-item-tutorial {
+    top: 12%;
+    right: 8%;
+  }
+  .blur-item-tutorial h3 {
+    font-size: 3.024rem;
+    line-height: 3.024rem;
+    letter-spacing: 0.76px;
+  }
+  .blur-item-tutorial p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.512rem;
+    letter-spacing: 0.9px;
+  }
+  .blur-item-workout {
+    bottom: 43%;
+    left: 6%;
+  }
 }
