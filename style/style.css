@@ -35,9 +35,11 @@ main {
   background-color: #000;
 }
 main section {
-  padding: 10.67rem 21.12rem;
   color: #fff;
   margin: 0 auto;
+  padding: 10rem 0;
+  border: 2px solid red;
+  width: 72.5%;
 }
 section .title {
   color: rgb(255, 255, 255);
@@ -55,5 +57,6 @@ section .title {
 
 /* 
 @media screen and (min-width: 576px) and (max-width: 992px) {}
-  @media screen and (max-width: 576px) {
-  }*/
+
+@media screen and (max-width: 576px) {}
+*/

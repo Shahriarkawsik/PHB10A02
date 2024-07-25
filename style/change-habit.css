@@ -1,5 +1,4 @@
 .change-habit {
-  width: 72.5%;
   text-align: center;
 }
 .change-habit-subtitle {
@@ -33,3 +32,24 @@
   letter-spacing: 0.3px;
 }
 /* border: 2px solid red; */
+@media screen and (max-width: 576px) {
+  .change-habit {
+    width: calc(100% - 2rem);
+    margin: 1rem;
+  }
+  .change-habit-title {
+    font-size: 2.5rem;
+  }
+  .habit-cards {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .habit-card-title {
+    font-size: 2.5rem;
+    margin: 2rem 0 0.64rem;
+  }
+  .habit-card-subtitle {
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+  }
+}
