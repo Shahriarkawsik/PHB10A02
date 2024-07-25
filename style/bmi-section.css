@@ -1,51 +1,72 @@
+.BMI {
+  width: 46.6%;
+}
 .BMI-calculator {
+  width: 100%;
   color: white;
   background: rgba(255, 255, 255, 0.2);
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 5rem;
-  padding: 10.67rem 21.12rem;
+  justify-content: space-between;
+  padding: 5.55rem 20.16rem;
+}
+.BMI-chart {
+  width: 35%;
+}
+.calculate-BMI {
+  width: 50%;
+}
+.BMI-chart-title {
+  margin-bottom: 5.55rem;
 }
 .BMI-chart-title,
 .calculate-BMI-title {
-  margin-bottom: 2.5rem;
-  font-size: 3rem;
+  font-size: 2.99rem;
+}
+.calculate-BMI-subtitle {
+  margin: 1.49rem 0 3.63rem;
 }
 thead tr td {
+  font-size: 1.71rem;
   font-weight: 700;
-  font-size: 1.5rem;
+}
+
+tbody tr td {
+  font-size: 1.49rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.5);
 }
 thead tr td,
 tbody tr td {
-  font-size: 1.8rem;
-  padding: 1.5rem;
-  width: 150px;
+  width: 51.29%;
+  padding: 1.39rem 4.37rem 1.39rem 2.56rem;
 }
+
 table,
 thead tr td,
 tbody tr td {
   border-collapse: collapse;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 /* calculate BMI */
 .input-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5px;
+  gap: 1.2rem;
 }
 
 input::placeholder,
 select {
-  color: rgb(255, 255, 255);
-  font-size: 2rem;
-  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.71rem;
+  font-weight: 400;
+  line-height: 137.5%;
 }
 input,
 select {
-  padding: 1.5rem 1rem;
-  margin: 1rem;
-  border-radius: 10px;
+  padding: 2rem;
+  border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.3);
   border: none;
 }
@@ -54,4 +75,41 @@ option {
 }
 #activity {
   grid-area: 3 / span 2;
+}
+.calculate-BMI-btn {
+  margin-top: 3.63rem;
+}
+@media screen and (max-width: 576px) {
+  .BMI-calculator {
+    flex-direction: column;
+    padding: 0;
+    margin: 0 1rem;
+    gap: 4rem;
+  }
+  .BMI,
+  .calculate-BMI {
+    width: calc(100% - 1rem);
+  }
+  .BMI-chart,
+  .calculate-BMI {
+    width: 100%;
+  }
+  .calculate-BMI-title,
+  .BMI-chart-title {
+    font-size: 1.6rem;
+  }
+  .BMI-chart-title {
+    margin: 3.63rem 0 2.45rem;
+  }
+  thead tr td,
+  tbody tr td {
+    width: calc(100% - 2rem) / 2;
+    padding: 1.39rem;
+  }
+  .input-container {
+    width: calc(100% - 1.2rem);
+  }
+  .calculate-BMI-btn {
+    margin: 3rem 0;
+  }
 }
