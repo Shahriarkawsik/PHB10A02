@@ -14,7 +14,7 @@
   height: 30vh;
 }
 .row-1-img-1 {
-  background: #06ffd280 url(../images/exercise1.jpg);
+  background: url(../images/exercise1.jpg);
   /* background-image: url(../images/exercise1.jpg); */
   background-size: cover;
   background-position: center;

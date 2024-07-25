@@ -1,5 +1,4 @@
 .team-section {
-  width: 100%;
   color: white;
   text-align: center;
 }
@@ -18,9 +17,9 @@
 .team-member {
   height: 27.2rem;
   border-radius: 18px;
-  background-position: center;
-  background-size: cover;
   background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 .team-member-details {
@@ -52,4 +51,13 @@
 }
 .team-member-6 {
   background-image: url(../images/trainer6.png);
+}
+@media screen and (max-width: 576px) {
+  .team-section {
+    width: calc(100% - 2rem);
+    margin: 1rem;
+  }
+  .team-members {
+    grid-template-columns: 1fr;
+  }
 }
