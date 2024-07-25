@@ -46,6 +46,9 @@
   background-color: rgb(230, 83, 60);
   border-radius: 4.6rem;
 }
+.navBar i {
+  display: none;
+}
 /* ===============================
           Banner Section
    =============================== */
@@ -164,6 +167,11 @@
   .navBar ul {
     display: none;
   }
+  .navBar i {
+    display: contents;
+    color: white;
+    font-size: 2.4rem;
+  }
   .banner {
     width: 100%;
     flex-direction: column;
@@ -184,7 +192,7 @@
   .banner-btn-container button {
     font-size: 1.8rem;
     line-height: 2.2rem;
-    padding: 1.6rem 2.4rem;
+    padding: 1.6rem 1.4rem;
     letter-spacing: 0.1rem;
   }
   .bbc-span {
