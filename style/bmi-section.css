@@ -57,6 +57,7 @@ tbody tr td {
 }
 input {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 1.71rem;
 }
 input::placeholder,
 select {
